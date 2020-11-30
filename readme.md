@@ -12,7 +12,7 @@
 >>}  
 >> draw(2) // **  
 >>```  
->> 2. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
+> 2. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
 >>```let print = ''  
 >>   let draw = function(n){  
 >>      let count = n  
