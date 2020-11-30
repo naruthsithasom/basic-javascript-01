@@ -14,14 +14,14 @@
 >>```  
 >> 2. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
 >>```let print = ''  
->>let draw = function(n){  
->>let count = n  
->>for(let i=0; i<count; i++){  
->>    for(let j=0; j<x; n--){  
->>      print += '*'  
+>>   let draw = function(n){  
+>>      let count = n  
+>>      for(let i=0; i<count; i++){  
+>>        for(let j=0; j<x; n--){  
+>>          print += '*'  
+>>        }  
+>>      console.log(print)  
+>>      }  
 >>    }  
->>    console.log(print)  
->>  }  
->>}  
 >>draw(5)  
 >>````
