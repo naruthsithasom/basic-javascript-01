@@ -1,11 +1,19 @@
+//EX.1 
+// let print = ''
+// let draw = function(x){
+//   for(let i=0; i>x; i--){
+//       console.log(print += '*')
+//   }
+// }
+// draw(4)
 let print = ''
-function draw(x){
-      
-       if(x>0) print = print + '*'
-       if(x==0) {
-       console.log(print)
-          return
-       }
-   return draw(x-1)
+let draw = function(n){
+  let count = n
+  for(let i=0; i<count; i++){
+    for(let j=0; j<n; n--){
+      print += '*' 
+    }
+    console.log(print)
+  }
 }
-draw(2)
+draw(5)
