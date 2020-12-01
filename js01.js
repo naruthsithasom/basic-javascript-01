@@ -117,18 +117,18 @@ draw(5)
 let draw = function(n){
   let show = ''
   let num = n
-  let count = 1
     for(let i=1; i<=n; i++){
       for(let j=1; j<=n; j++){
         //show += count++ //012345678
-        show += i * j
-        if((count * count) == (i*j)) show += '_' //1 4 6
+        //show += i * j
+        if(i*j == 1) show += '_'
+        if(i*j == (num  ) show += '_' //1 4 6
         else show += '*'
-        count
+        
       }
       console.log(show)
       show = ''
     }
   console.log(show)
 }
-draw(5)
+draw(4)
