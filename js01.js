@@ -114,17 +114,30 @@ let draw = function(n){
 draw(5)
 */
 //Ex.11
+/*
 let draw = function(n){
   let show = ''
-  let num = n
-    for(let i=1; i<=n; i++){
-      for(let j=1; j<=n; j++){
-        //show += count++ //012345678
-        //show += i * j
-        if(i*j == 1) show += '_'
-        if(i*j == (num  ) show += '_' //1 4 6
-        else show += '*'
-        
+    for(let i=0; i<=n; i++){
+      for(let j=0; j<=n; j++){
+        if( i == j )  show += '_'
+         else show += '*'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(4)
+*/
+
+//Ex.12
+
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<n; i++){
+      for(let j=n; j>=0; j--){
+        if( i == j )  show += '-'
+         else show += '*'        
       }
       console.log(show)
       show = ''

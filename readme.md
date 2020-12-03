@@ -179,3 +179,50 @@
 >>2468  
 >>36912  
 >>481216  
+11. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
+```
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<=n; i++){
+      for(let j=0; j<=n; j++){
+        if( i == j )  show += '_'
+         else show += '*'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(4)
+```
+```
+output
+_****
+*_***
+**_**
+***_*
+****_
+```  
+12. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
+```  
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<n; i++){
+      for(let j=n; j>=0; j--){
+        if( i == j )  show += '-'
+         else show += '*'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(4)
+```  
+```  
+output 
+****-
+***-*
+**-**
+*-***
+```  
