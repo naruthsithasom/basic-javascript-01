@@ -131,7 +131,7 @@ draw(4)
 */
 
 //Ex.12
-
+/*
 let draw = function(n){
   let show = ''
     for(let i=0; i<n; i++){
@@ -145,3 +145,35 @@ let draw = function(n){
   console.log(show)
 }
 draw(4)
+*/
+
+//Ex.13
+/*
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<n; i++){
+      for(let j=0; j<n; j++){
+        if( i >= j ) show += '*'
+        if( i < j ) show += '_'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(5)
+*/
+//Ex.14
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<n; i++){
+      for(let j=0; j<n; j++){
+        if( i >= j ) show += '*'
+        if( i < j ) show += '_'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(5)

@@ -226,3 +226,27 @@ output
 **-**
 *-***
 ```  
+13. จงเขียน method draw(int n) ให้print ออกมาในกรณีที่ n มีค่าต่างๆได้ผลลัพธ์ดังนี้  
+```
+let draw = function(n){
+  let show = ''
+    for(let i=0; i<n; i++){
+      for(let j=0; j<n; j++){
+        if( i >= j ) show += '*'
+        if( i < j ) show += '_'        
+      }
+      console.log(show)
+      show = ''
+    }
+  console.log(show)
+}
+draw(5)
+```  
+```  
+output 
+*____
+**___
+***__
+****_
+*****
+```  
